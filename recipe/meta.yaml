@@ -1,6 +1,6 @@
 {% set theme_name = "cayman" %}
 {% set name = '-'.join(['jekyll-theme', theme_name]) %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: aef6973af075653c6b70857cd47301d3a4cd5782651e0911be98fea56cddabf1
+  sha256: 3c5f14f9c72a8eb03ecc74f9a3e5ecbbc55f9381339978b42dec216921865f2a
 
 build:
   noarch: generic
